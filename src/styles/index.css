@@ -1,0 +1,419 @@
+/* This is for dark mode */
+@import 'tailwindcss';
+@custom-variant dark (&:where(.my-app-dark, .my-app-dark *));
+
+.my-app-dark body {
+    background-color: #09090B;
+}
+
+/* --------------------- HEADER --------------------------- */
+.my-app-dark .header {
+    background-color: black;
+    border-color: #2c2c31;
+}
+
+.my-app-dark .nav-list a {
+    border-color: #2c2c31;
+}
+
+.my-app-dark .nav-list a:hover {
+    background-color: #252525;
+}
+
+.my-app-dark #search {
+    color: #FFFFD8;
+}
+
+.my-app-dark .color-menu {
+    background-color: #252525;
+}
+
+/* --------------------- FOOTER --------------------------- */
+.my-app-dark footer {
+    background-color: black;
+    border-color: #2c2c31;
+    color: #FFFFD8;
+}
+
+.my-app-dark .logos-list li a svg, 
+.my-app-dark .links-footer ul li a {
+    color: #cacaca;
+}
+
+.my-app-dark .logos-list li a svg:hover,
+.my-app-dark .links-footer ul li a:hover {
+    color: white;
+}
+
+.my-app-dark .about-footer p {
+    color: #d1d1d1;
+}
+
+/* -------------------- HOME --------------------- */
+
+.my-app-dark .container-text-home h1 {
+    background-color: #09090bef;
+    color: #FFFFD8;
+    border-color: #2c2c31;
+}
+
+.my-app-dark .blogs-home h2{
+    color:#FFFFD8;
+}
+
+.my-app-dark .blogs-containers-post {
+    background-color: #09090B;
+}
+
+.my-app-dark .title-post,
+.my-app-dark .author-post-home,
+.my-app-dark .buttons-post-actions,
+.my-app-dark .buttons-post-actions a  {
+    color: white;
+}
+
+.my-app-dark .buttons-post-actions a:hover{
+    color: #585858;
+}
+
+.my-app-dark .hashtag-post,
+.my-app-dark .author-post-home span {
+    color: #8671ff;
+}
+
+.my-app-dark .description-post,
+.my-app-dark .date-time {
+    color: antiquewhite;
+}
+
+.my-app-dark .post-container,
+.my-app-dark .buttons-post-actions {
+    border-color: #2c2c31;
+    background-color: #121214;
+}
+
+.my-app-dark .favorite-dark-mode {
+    color: white;
+}
+
+/* --------------------- DROP DOWN MENU ---------------------- */
+.my-app-dark .dropdown-menu {
+    background-color: #000316;
+}
+
+.my-app-dark .dropdown-menu li, 
+.my-app-dark .dropdown-menu li a,
+.my-app-dark .icon-drop-menu {
+    color: white;
+}
+
+.my-app-dark .dropdown-menu li:hover,
+.my-app-dark .dropdown-menu li a:hover,
+.my-app-dark .icon-drop-menu:hover {
+    color: #696969;
+}
+
+
+/* --------------------- POST ---------------------- */
+.my-app-dark .content-users-posts {
+    background-color: #18181B;
+}
+
+.my-app-dark .author-post,
+.my-app-dark .inline-info-content {
+    background-color: #09090B;
+    border-color: #3f3f47;
+}
+
+.my-app-dark #user-author a,
+.my-app-dark #hashtag-post-author{
+    color: #8671ff;
+}
+
+.my-app-dark #user-author a:hover {
+    color: #413296;
+}
+
+.my-app-dark #separations,
+.my-app-dark #data-time {
+    color: #c5c5c5;
+}
+
+.my-app-dark #name-author a,
+.my-app-dark #title-post,
+.my-app-dark #descripcion-post {
+    color: white;
+}
+
+.my-app-dark #name-author a:hover {
+    color: #c5c5c5;
+}
+
+.my-app-dark .users-posts {
+    color: white;
+}
+
+.my-app-dark .close-image-post:hover {
+    color: white;
+    background-color: black;
+}
+
+/* -------------------- IMAGE POST AUTHOR -------------------- */
+.my-app-dark .arrows-image svg:hover {
+    background-color: black;
+}
+
+
+/* ---------------------- POST USER --------------------- */
+.my-app-dark .buttons-view-post {
+    background-color: black;
+    border-color: white;
+    color: white;
+    border-color: #3f3f47;
+}
+
+.my-app-dark .buttons-view-post a {
+    color: white;
+}
+
+.my-app-dark .buttons-view-post a:hover {
+    color: #929292;
+}
+
+/* ---------------------- POST COMMENT ----------------------- */
+.my-app-dark .comments-replaying-author {
+    border-color: #3f3f47;
+}
+
+/* ---------------------- COMMUNITY COMMENT --------------------- */
+.my-app-dark #replaying-author,
+.my-app-dark #replaying {
+    color: #aeadb8;
+}
+
+.my-app-dark #replaying-author {
+    color: #7a778f;
+}
+
+/* ---------------------- POST COMMENT --------------------- */
+.my-app-dark .buttons-comment-replaying {
+    background-color: #2c2952;
+}
+
+.my-app-dark .buttons-comment-replaying:hover {
+    background-color: #424242;
+    color: white;
+}
+
+.my-app-dark .comment-replaying {
+    border-color: #2c2c31;
+}
+
+/* ---------------------- CREATE POST --------------------- */
+
+.my-app-dark .edit-icon-create-post {
+    background-color: black;
+    color: #FFFFD8;
+    border-color: #2c2c31;
+}
+
+
+.my-app-dark .edit-icon-create-post:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+.my-app-dark .create-post-box,
+.my-app-dark .columns-block-create-post div textarea,
+.my-app-dark .description-create textarea,
+.my-app-dark .ages-create-post label,
+.my-app-dark .buttons-create-post  {
+    border-color: #2c2c31;
+}
+
+.my-app-dark .create-post-container h1,
+.my-app-dark .title-create-post h3,
+.my-app-dark .tag-create-post h3,
+.my-app-dark .description-create h3{
+    color: white;
+}
+
+.my-app-dark #title-create,
+.my-app-dark #tags-create,
+.my-app-dark #description-create {
+    background-color: #09090B;
+    color: white;
+}
+
+.my-app-dark .ages-create-post label span {
+    color: #FFFFD8;
+}
+
+.my-app-dark .ages-create-post label:has(input[type="radio"]:checked) {
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+.my-app-dark .ages-create-post p {
+    color: rgb(177, 177, 177);
+}
+
+/* ---------------------- MY CREATIONS --------------------------- */
+.my-app-dark .buttons-my-creations span:hover,
+.my-app-dark .buttons-my-creations a:hover{
+    background-color: #2c2c31;
+}
+
+/* ---------------------- PROFILE --------------------- */
+.my-app-dark .buttons-profile {
+    border-color: #2c2c31;
+}
+
+.my-app-dark .buttons-profile p {
+    color: #FFFFD8;
+}
+
+.my-app-dark .name-profile {
+    color: white;
+}
+
+.my-app-dark .username-profile {
+    color: #7159fa;
+}
+
+.my-app-dark .edit-button-profile-change  {
+    background-color: black;
+}
+
+.my-app-dark .content-box-profile {
+    background-color: #111111;
+}
+
+.my-app-dark .bottom-line-color {
+    color: #FFFFD8;
+    border-color: #FFFFD8;
+}
+
+.my-app-dark .button-edit-background:hover,
+.my-app-dark .edit-button-photo:hover {
+    background-color: #2c2c31;
+}
+
+.my-app-dark .edit-button-photo {
+    background-color: #000316;
+    color: #FFFFD8;
+    border-color: #2c2c31;
+}
+
+/* ---------------------- PROFILE ABOUT --------------------- */
+.my-app-dark .about-component-profile {
+    color: #FFFFD8;
+    background-color: black;
+    border-color: red;
+}
+
+.my-app-dark .about-component-profile tbody tr th, 
+.my-app-dark .about-component-profile tr td,
+.my-app-dark .edit-profile-form tbody tr th,
+.my-app-dark .edit-profile-form tbody tr td {
+    border-color: #2c2c31;
+}
+
+.my-app-dark .button-edit-background {
+    background-color: #09090B;
+    color: #FFFFD8;
+    border-color: #2c2c31;
+}
+
+/* ---------------------- EDIT PROFILE --------------------- */
+.my-app-dark .edit-profile-form {
+    background-color: black;
+    color: white;
+}
+
+.my-app-dark .edit-profile-form tr td input {
+    color: white;
+}
+
+.my-app-dark .buttons-edit-profile button {
+    background-color: #505050;
+}
+
+.my-app-dark .edit-button-profile-change:hover {
+    border-color: #888897;
+}
+
+.my-app-dark .edit-button-profile-change {
+    background-color: #09090B;
+    color: #FFFFD8;
+    border-color: #FFFFD8;
+}
+
+.my-app-dark #edit-description-perfil {
+    border-color: #2c2c31;
+}
+
+.my-app-dark .buttons-edit-profile button {
+    background-color: black;
+    border: 2px solid #2c2c31;
+}
+
+.my-app-dark .buttons-edit-profile button:hover {
+    background-color: #2c2c31;
+}
+
+/* -------------------- OTHER PROFILE ------------------------- */
+.my-app-dark .dark-mode-no-yet {
+    color: #FFFFD8;
+}
+
+/* ------------------- COMFIRM EDIT PROFILE ------------------ */
+.my-app-dark .perfil-verify-background {
+    background-color: #00080f9d;
+}
+
+.my-app-dark .perfil-verify-content {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #2c2c31;
+}
+
+.my-app-dark .perfil-verify-content svg {
+    color: white;
+}
+
+.my-app-dark .dark-mode-close-edit-confirm:hover {
+    color: #53535c;
+}
+
+.my-app-dark .perfil-verify-content h2,
+.my-app-dark .form-verify-perfil input{
+    color: #FFFFD8;
+    background-color: black;
+    border-color: #FFFFD8;
+}
+
+.my-app-dark .button-confirm-verify {
+    background-color: black;
+    border: 2px solid #2c2c31;
+}
+
+.my-app-dark .button-confirm-verify:hover {
+    background-color: #2c2c31;
+}
+
+/* ======================== Favorite =========================== */
+.my-app-dark .no-favorite-yet {
+    color: white;
+}
+
+.my-app-dark .not-found-search {
+    color: white;
+}
+
+.my-app-dark .no-favorite-yet span {
+    color: rgb(134, 134, 255);
+}
+
+/* ======================= Error 404 Page ===================== */
+.my-app-dark .errorContent {
+    background: linear-gradient( #003857 ,#000000);
+}
