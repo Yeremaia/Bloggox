@@ -18,6 +18,10 @@ Bloggox is a blogging software that allows users to create, edit, or delete thei
 - Axios
 - Figma
 
+## Mockups
+- [For pc](https://drive.google.com/file/d/1AbLpPuViAtyTThAeDPhtzVTD_26Xdh5p/view?usp=sharing)
+- [For mobile](https://drive.google.com/file/d/18BjKzMogXsFMFzaJyRhFRM-NYxy-XS1N/view?usp=sharing)
+
 ## Project user manual
 
 this is the [Project Manual](https://drive.google.com/file/d/119EBsqowBI-9qSSKnovV9-iUx27J3LcF/view?usp=sharing)
